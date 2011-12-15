@@ -1,13 +1,13 @@
-
+import models.GameManager;
 
 public class Exe {
 
 	/**
+	 * Program entry point
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		GameManager manager = GameManager.getInstance();
 	}
 
 }
