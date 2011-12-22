@@ -1,3 +1,3 @@
-package ui;
+package views;
 public class HLGui extends AbstractGui {
 }

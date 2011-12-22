@@ -1,4 +1,4 @@
-package ui;
+package views;
 public class AbstractUiFactory {
 
 	public void CreateGUI() {
