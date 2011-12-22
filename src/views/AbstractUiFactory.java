@@ -1,7 +1,8 @@
 package views;
-public class AbstractUiFactory {
 
-	public void CreateGUI() {
-		throw new UnsupportedOperationException();
-	}
+public abstract class AbstractUiFactory {
+
+	abstract AbstractGui createGui();
+	abstract AbstractCli createCli();
+	
 }

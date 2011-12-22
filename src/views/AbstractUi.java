@@ -1,7 +1,8 @@
 package views;
-public class AbstractUi {
 
-	public void update() {
-		throw new UnsupportedOperationException();
-	}
+public abstract class AbstractUi {
+
+	public abstract void init();
+	public abstract void update();
+	
 }

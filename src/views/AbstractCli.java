@@ -1,3 +1,5 @@
 package views;
-public class AbstractCli extends AbstractUi {
+
+public abstract class AbstractCli extends AbstractUi {
+
 }
